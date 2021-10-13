@@ -101,5 +101,14 @@ color: #E0B612;
 .notify-section{
     width: 35%;
     margin: 0 auto;
+}
+#pin-matched{
     display: none;
+    background-color: lime;
+    margin-bottom: 30px;
+}
+#pin-not-matched{
+    display: none;
+    background-color: rgb(255, 0, 0);
+    margin-bottom: 30px;
 }
