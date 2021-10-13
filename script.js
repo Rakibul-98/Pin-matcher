@@ -3,6 +3,8 @@ function handleGenerate(){
     if (randomNumber > 1000) {
         document.getElementById("generate-display").value=randomNumber;
     }
+    document.getElementById("pin-matched").style.display='none';
+    document.getElementById("pin-not-matched").style.display='none';
 }
 
 function handleTypedPin(){
